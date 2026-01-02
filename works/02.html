@@ -13,7 +13,7 @@
           <h1>
             <a href="../">
               <!-- 記載番号：1 -->
-              <span class="header__logo-title">Tech Taro</span>
+              <span class="header__logo-title">Kubouchi Yuki</span>
               <span class="header__logo-sub">Portfolio</span>
             </a>
           </h1>
@@ -33,19 +33,19 @@
       <section class="p-work-firstview">
         <div class="section-inner">
           <!-- 記載番号：2（記載番号2は5行目にもあるので気をつけてください） -->
-          <h2>HOBCHA（趣味共有SNS）</h2>
+          <h2>GyoseiPotal（行政書士向け業務アプリ）</h2>
           <div class="p-work-firstview__pict obj-fit-img">
             <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
-            <img src="../images/work/02/pict-work02-firstview_pc.jpg" class="show-pc">
+            <img src="../images/work/02/pict-work02-firstview.jpg" class="show-pc">
             <!-- images/02に配置した、オリジナルアプリの画像（SP版）のパスを記載する -->
-            <img src="../images/work/02/pict-work02-firstview_sp.jpg" class="show-sp">
+            <img src="../images/work/02/pict-work02-firstview.jpg" class="show-sp">
           </div>
           <div class="p-work-firstview__text-area">
             <h3 class="p-work-firstview__text-titile">開発環境</h3>
             <!-- 記載番号：3 -->
-            <p class="p-work-firstview__text">Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello</p>
+            <p class="p-work-firstview__text">Ruby / Ruby on Rails / SQLite / PostgreSQL / Node.js / GitHub / Visual Studio Code / GitHub Copilot</p>
             <!-- 記載番号：4 -->
-            <p class="p-work-firstview__text-link"><a href="__URL__" target="_blank">https://github.com/XXXXXX/xxxxxx</a></p>
+            <p class="p-work-firstview__text-link"><a href="https://github.com/yuki-kubouchi/GyoseiPotal" target="_blank">https://github.com/yuki-kubouchi/GyoseiPotal</a></p>
           </div>
         </div>
       </section>
@@ -63,7 +63,7 @@
                 <tr>
                   <th>URL</th>
                   <!-- 記載番号：6 -->
-                  <td><a href="__URL__" target="_blank">http://hoge.heroku.com</a></td>
+                  <td><a href="https://gyoseipotal.onrender.com" target="_blank">https://gyoseipotal.onrender.com</a></td>
                 </tr>
                 <tr>
                   <th>ID</th>
@@ -73,23 +73,23 @@
                 <tr>
                   <th>PASS</th>
                   <!-- 記載番号：8 -->
-                  <td>2222</td>
+                  <td>yuki2025</td>
                 </tr>
               </table>
             </li>
-            <li class="p-work-summary__item">
+            <!--li class="p-work-summary__item">
               <h3>動作テスト</h3>
               <h4>テスト用アカウント</h4>
               <table class="p-work-summary__item-table">
                 <tr>
-                  <th>mail</th>
+                  <th>mail</th-->
                   <!-- 記載番号：9 -->
-                  <td>test_user@hoge.com</td>
+                  <!--td>test_user@hoge.com</td-->
                 </tr>
-                <tr>
-                  <th>PASS</th>
+                <!--tr>
+                  <th>PASS</th-->
                   <!-- 記載番号：10 -->
-                  <td>testuser1234</td>
+                  <!--td>testuser1234</td-->
                 </tr>
               </table>
             </li>
@@ -105,18 +105,18 @@
             <!-- 記載番号：11 -->
             <div class="p-work-outline__text">
               <p>
-                オリジナルアプリケーションとして、自身の趣味を共有をするSNSを開発しました。
+                オリジナルアプリケーションとして、行政書士事務所を運営するための業務アプリを開発しました。
                 <br>
-                主な機能は、ユーザー登録機能、および趣味のジャンルごとのタイムライン機能、タグ付け機能です。
+                主な機能は、申請一覧管理、スケジュール管理、顧客情報管理、請求管理、請求書等印刷、データ分析です。
               </p>
               <p>
-                トップページにアクセスすると、様々な趣味のジャンルについて表示されています。それをクリックすると、そのジャンルにおけるタイムライン機能を閲覧することができます。
+                ダッシュボードにアクセスすると、今後の申請やスケジュールなどの重要な情報が表示されます。
               </p>
               <p>
-                ユーザー登録をすると、それらのタイムラインに自身の投稿をすることができます。画像を添付することや、YouTubeのリンクを埋め込むことができます。YouTubeの動画については、タイムライン上で再生することができます。
+                各タブをクリックすると、申請、スケジュールカレンダー、顧客情報、請求情報を一覧で確認することができます。
               </p>
               <p>
-                また、投稿をする際はタグ付け（ハッシュタグ）をすることができ、ハッシュタグをクリックすると同一のハッシュタグを持つ投稿のみを閲覧することができます。
+                請求登録を行うと、アクションボタンを押して入力した情報から見積書・請求書・領収書をPDFで表示し、印刷したりメールに添付したりすることができます。
               </p>
             </div>
           </div>
@@ -130,13 +130,13 @@
               <!-- 記載番号：12 -->
               <div class="p-work-about__item-block">
                 <p>
-                  普段SNSを利用している中で、効率的に情報に接することができていないと課題に感じることがありました。
+                  自身が行政書士資格を保有していることもあり、自分が事務所運営に必要だと考えるアプリが欲しいと思いました。
                 </p>
                 <p>
-                  私はサッカー観戦が趣味で、特にイングランドのプレミアリーグの情報をSNSで収集します。しかし、サッカーのジャンルは広く、フォローをしている他のユーザーは他のリーグの情報や、サッカーとは関係のない情報を共有するためそれらの情報がノイズに感じることがありました。またハッシュタグのみでジャンルを管理すると、必ずしも全員がハッシュタグをつけるわけではないので、情報の網羅性に欠けると感じています。
+                  しかし行政書士事務所というニッチな市場に対応した業務アプリはネット上では発見する事ができませんでした。
                 </p>
                 <p>
-                  そこで、5ちゃんねるなどの掲示板の仕組みを参考に、テーマがカテゴライズされたSNSを作成したいと考えました。
+                  そこで、行政書士事務所の運営に特化した業務アプリを作成したいと考えました。
                 </p>
               </div>
             </li>
@@ -145,18 +145,18 @@
               <div class="p-work-about__item-block p-work-about__item-block-2column">
                 <div class="p-work-about__item-block-pict obj-fit-img">
                   <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
-                  <img src="../images/work/02/pict-work02-about-dammy.jpg">
+                  <img src="../images/work/02/pict-work02-PDF.jpg">
                 </div>
                 <!-- 記載番号：13 -->
                 <div class="p-work-about__item-block-text">
                   <p>
-                    1つ目が本アプリケーションのポイントである趣味ジャンルのカテゴライズ機能です。カテゴリー管理にはancestryというRuby gemを用い、複数改装で管理できるようにしました。また、カテゴリーを各々が作成できる機能を設けました。しかし、これにはある課題が生じ、現在は機能を取り外しています。詳細は後述します。
+                    このアプリ一つで、事務所運営に必要な事務ができる限り行えることを目指しました。
                   </p>
                   <p>
-                    2つ目がタイムラインのUIです。スマートフォンブラウザでの利用を考え、「スマホで見やすい」「スマホでタップしやすい」をテーマにマークアップを行い実装しました。
+                    情報の一元管理と、その情報をもとに、ワンクリックで見積書・請求書・領収書の発行まで行えます。
                   </p>
                   <p>
-                    いずれも、知人20名ほどに実際に利用してもらい、ユーザーヒアリングを行いながら改善を行っています。
+                    PDFの生成にはRubyベースのPDF生成ライブラリであるPrawn・Prawn-tableとフォント処理ライブラリTTFunkを使用。
                   </p>
                 </div>
               </div>
@@ -166,20 +166,20 @@
               <div class="p-work-about__item-block p-work-about__item-block-2column">
                 <div class="p-work-about__item-block-pict obj-fit-img">
                   <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
-                  <img src="../images/work/02/pict-work02-about-dammy.jpg">
+                  <img src="../images/work/02/pict-work02-content.jpg">
                 </div>
                 <!-- 記載番号：14 -->
                 <div class="p-work-about__item-block-text">
                   <p>
-                    ActiveAdminなどを用いて、管理機能を設けたいと考えています。理由は2つあります。
+                    データ分析機能を拡張したいと考えています。
                   </p>
                   <p>
-                    1つ目が、SNSというサービスの特性上、不適切な投稿を削除できるようにしておく必要があるためです。
+                    損益分岐点売上高の自動計算やKPIの設定と達成率の表示等。
                   </p>
                   <p>
-                    2つ目が、趣味ジャンルの修正追加を容易に行うためです。前述のとおり、ユーザーにカテゴリーを作成する機能を設けていましたが削除をしました。これは、ユーザーが好き勝手にカテゴリーを登録できてしまうと、重複の可能性があるためです。
+                    受注業務からの業務比率統計分析を詳細に表示し、事務所運営の効率化のサポートをより行えるアプリにしていきたいです。
                     <br>
-                    そこで、ユーザーに要望フォーム形式で修正追加したいカテゴリーを投稿をしてもらい、運営側で追加する仕組みを考えています。その運用を実現するために管理機能が必要であると考えています。
+          
                   </p>
                 </div>
               </div>
@@ -197,7 +197,7 @@
               <li class="p-work-others__item">
                 <div class="p-work-others__item-pict">
                   <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
-                  <a href="01.html" style="background-image:url('../images/work/01/pict-work01-firstview_pc.jpg');"></a>
+                  <a href="01.html" style="background-image:url('../images/work/01/pict-work01.jpg');"></a>
                 </div>
                 <div class="p-work-others__item-text-block">
                   <!-- 記載番号：15 -->
@@ -212,25 +212,55 @@
               <li class="p-work-others__item">
                 <div class="p-work-others__item-pict">
                   <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
-                  <a href="02.html" style="background-image:url('../images/work/02/pict-work02-firstview_pc.jpg');"></a>
+                  <a href="02.html" style="background-image:url('../images/work/02/pict-work02-firstview.jpg');"></a>
                 </div>
                 <div class="p-work-others__item-text-block">
                   <!-- 記載番号：17 -->
-                  <h3>HOBCHA（趣味共有SNS）</h3>
+                  <h3>GyoseiPotal（行政書士向け業務アプリ）</h3>
                   <!-- 記載番号：18 -->
-                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello</p>
+                  <p>Ruby / Ruby on Rails / SQLite / PostgreSQL / Node.js / GitHub / Visual Studio Code / GitHub Copilot</p>
                 </div>
                 <div class="p-work-others__item-btn-block">
                   <a href="02.html" class="button">More</a>
                 </div>
               </li>
+              <!--li class="p-work-others__item">
+                <div class="p-work-others__item-pict"-->
+                  <!-- images/03に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+                  <!--a href="03.html" style="background-image:url('../images/work/03/pict-work03.jpg');"></a>
+                </div>
+                <div class="p-work-others__item-text-block"-->
+                  <!-- 記載番号：19 -->
+                  <!--h3>Number（ナンプレアプリ）</h3-->
+                  <!-- 記載番号：20 -->
+                  <!--p>HTML / CSS / JavaScript / GitHub / Visual Studio Code / GitHub Copilot</p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="03.html" class="button">More</a>
+                </div>
+              </li>
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict"-->
+                  <!-- images/04に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+                  <!--a href="04.html" style="background-image:url('../images/work/04/pict-work04.jpg');"></a>
+                </div>
+                <div class="p-work-others__item-text-block"-->
+                  <!-- 記載番号：21 -->
+                  <!--h3>くぼうち行政書士事務所（HP制作）</h3-->
+                  <!-- 記載番号：22 -->
+                  <!--p>HTML / CSS / JavaScript / GitHub / Visual Studio Code / GitHub Copilot</p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="04.html" class="button">More</a>
+                </div>
+              </li-->
             </ul>
           </div>
         </div>
       </section>
     </main>
     <!-- 記載番号：1 -->
-    <footer id="footer" class="footer"><p>&copy; Taro Tech.</p></footer>
+    <footer id="footer" class="footer"><p>&copy; Kubouchi Yuki.</p></footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
     <script type="text/javascript" src="../js/ofi.min.js"></script>
     <script type="text/javascript" src="../js/script.js"></script>
